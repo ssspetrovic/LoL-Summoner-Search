@@ -6,7 +6,8 @@ internal static class Constants
 {
     public const string DefaultRegion = "eun1";
     public const string DefaultName = "TheLesserEvil";
-    public const string ApiKey = "RGAPI-256006e6-2ecd-4ddc-aa39-cce7e36aee3c";
+    // TODO Replace the empty string with your API key below
+    public const string ApiKey = Secrets.Key;
     public const string SoloQueue = "RANKED_SOLO_5x5";
     public const string FlexQueue = "RANKED_FLEX_SR";
     public const string DefaultProfileIconSource = "https://ddragon-webp.lolmath.net/latest/img/profileicon/29.webp";
