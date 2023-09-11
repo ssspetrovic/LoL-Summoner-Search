@@ -6,7 +6,7 @@ internal static class Constants
 {
     public const string DefaultRegion = "eun1";
     public const string DefaultName = "TheLesserEvil";
-    // TODO Replace the empty string with your API key below
+    // TODO Replace 'Secrets.Key' with your actual API key
     public const string ApiKey = Secrets.Key;
     public const string SoloQueue = "RANKED_SOLO_5x5";
     public const string FlexQueue = "RANKED_FLEX_SR";
