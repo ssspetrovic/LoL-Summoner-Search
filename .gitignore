@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Secret C# file
-Secret.cs
+Secrets.cs
