@@ -48,9 +48,9 @@ internal class RankService
         throw new Exception($"{(int)response.StatusCode} - {response.ReasonPhrase}");
     }
 
-    public async Task<RankInfo?> GetTftRankById(string? id, string? region = "eun1")
+    public async Task<RankInfo?> GetTftRankById(string? id, string? region)
     {
-        var url = $"https://eun1.api.riotgames.com/tft/league/v1/entries/by-summoner/{id}?api_key={Constants.ApiKey}";
+        var url = $"https://{region}.api.riotgames.com/tft/league/v1/entries/by-summoner/{id}?api_key={Constants.ApiKey}";
         var response = await Client.GetAsync(url);
 
         if (response.IsSuccessStatusCode)
